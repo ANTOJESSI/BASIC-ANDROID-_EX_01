@@ -1,13 +1,13 @@
 # BASIC-ANDROID-_EX_01
 
-`Ex.No:1 Implementation of a Hello world Activity using all lifecycles methods using Android Studio.
-AIM:
+# Ex.No:1 Implementation of a Hello world Activity using all lifecycles methods using Android Studio.
+## AIM:
 To create Hello world Activity using all lifecycles methods to display messages using android studio.
 
-EQUIPMENTS REQUIRED:
+## EQUIPMENTS REQUIRED:
 Android Studio(Min. required Artic Fox)
 
-ALGORITHM:
+## ALGORITHM:
 Step 1: Open Android Stdio and then click on File -> New -> New project.
 
 Step 2: Then type the Application name as HelloWorld and click Next.
@@ -22,10 +22,10 @@ Step 6: Display message give in MainActivity file.
 
 Step 7: Save and run the application.
 
-PROGRAM:
-Program to implement a Hello world Activity using all lifecycles methods using Android Studio .
-
-MainActivity.java:
+## PROGRAM:
+Program to implement a Hello world Activity using all lifecycles methods using Android Studio . 
+### MainActivity.java:
+```
 package com.example.exp1;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -76,7 +76,9 @@ public class MainActivity extends AppCompatActivity {
         toast.show();
     }
 }
-activity_main.xml:
+```
+### activity_main.xml:
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -96,8 +98,15 @@ activity_main.xml:
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
-OUTPUT:
-Screenshot 2024-09-14 105211Screenshot 2024-09-14 104938 Screenshot 2024-09-14 104958 Screenshot 2024-09-14 105044 Screenshot 2024-09-14 105104
+```
 
-RESULT:
-Thus a program to implement the various life cycles of an activity is written and successfully executed using Android Studio.`
+## OUTPUT:
+
+![Screenshot 2024-09-14 105211](https://github.com/user-attachments/assets/ec75b30e-f56a-43e7-afff-8c723b00eb7a)![Screenshot 2024-09-14 104938](https://github.com/user-attachments/assets/33434b43-bcd4-4081-adf4-0cad6605bc76)
+![Screenshot 2024-09-14 104958](https://github.com/user-attachments/assets/671c7641-b10f-479a-aece-188d8265e5b0)
+![Screenshot 2024-09-14 105044](https://github.com/user-attachments/assets/104e4248-f7b3-4e49-a686-317eb9882437)
+![Screenshot 2024-09-14 105104](https://github.com/user-attachments/assets/31d00dfe-9f43-481e-8141-655fe097fe7d)
+
+## RESULT:
+Thus a program to implement the various life cycles of an activity is written and successfully executed using Android Studio.
+
